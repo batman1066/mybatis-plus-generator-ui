@@ -20,7 +20,7 @@ public class GeberatorUIServer {
     public static void main(String[] args) {
         GeneratorConfig config = GeneratorConfig.builder().jdbcUrl("jdbc:mysql://192.168.110.139:3306/meapay?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false")
                 .userName("root")
-                .password("Abcd1234")
+                .password("111111")
                 .driverClassName("com.mysql.jdbc.Driver")
                 //数据库schema，POSTGRE_SQL,ORACLE,DB2类型的数据库需要指定
                 //.schemaName("meapay")
