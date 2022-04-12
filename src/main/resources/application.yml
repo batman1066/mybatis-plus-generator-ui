@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: root
+    password: 111111
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.110.139:3306/meapay?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false
+    type: com.alibaba.druid.pool.DruidDataSource
